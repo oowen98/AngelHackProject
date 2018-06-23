@@ -1,0 +1,255 @@
+.index-background-img {
+    
+    position: fixed;
+    left: 0;
+    width: 100%;
+    top: 0;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.35;
+    
+}
+
+.blue-img{
+
+    position: fixed;
+    left: 0;
+    width: 100%;
+    top: 0;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.575;
+}
+
+.index-logo{
+    position: absolute;
+    left: 3%;
+    width: 150px;
+    top: 0%;
+    height: 150px;
+   
+}
+
+.team-img{
+    position: relative;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    bottom: 0%;
+    height: 500px;
+    
+   
+}
+
+.schedule-background-img{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    top: 0;
+    height: 100%;
+    
+
+}
+.background-img {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    top: 0;
+    height: 100%;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+.horizontal-line{
+    border: 0.1px;
+    outline-style: solid;
+    outline-color: black;
+   
+}
+
+.horizontal-line2{
+    border: 0.1px;
+    outline-style: solid;
+    outline-color: black;
+    outline-width: thin;
+    height: 0%;
+    
+}
+
+.user-info {
+    font-size: 20px;
+}
+
+/* {
+    font-size: 50px;
+}
+*/
+
+.hiring{
+    font-size: 35px;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.teacher-info{
+
+    font-size: 20px;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-info{
+
+    font-size: 20px;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 40%;
+    font-size: 25px;
+}
+
+.name{
+    color:black ;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    
+    text-decoration: underline;
+    height: 10%;
+    
+}
+
+.name1{
+    color:black ;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    
+    text-decoration: underline;
+    height: 10%;
+    
+}
+
+.slogan-text {
+    color: black;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-style: italic;
+    position: relative;
+    height: 170px;
+}
+
+.Why-text{
+    color: black;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+}
+
+.Why-body{
+    color: black;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+
+    height: 30%;
+    width: 40%;
+    margin-left: 30%;
+
+    border: 1px solid black;
+    outline-style: solid;
+    outline-color: black;
+    
+
+}
+
+.signuptag h1 {
+    
+    font-size: 20px;
+
+}
+
+.testtag h1{
+    font-size: 20px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 10%;
+
+}
+
+.languagetext {
+    font-size: 25px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60%;
+    width: 40%;
+    margin-left: 30%;
+
+   
+    border: 0.5px solid black;
+    outline-style: solid;
+    outline-color: black;
+    outline-width: thick;
+    
+
+}
+
+.languageheader{
+    font-size: 50px;
+    text-decoration: underline;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 20%;
+}
+
+.languagebutton{
+    font-size: 15px;
+}
+
+
+.student{
+    width: 200px;
+    height: 200px;
+}
+
+.chinesestudent{
+    width: 200px;
+    height: 200px;
+}
+
+.teacher{
+    width: 200px;
+    height: 200px;
+
+}

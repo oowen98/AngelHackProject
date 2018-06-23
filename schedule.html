@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8' />
+  <link href='fullcalendar.min.css' rel='stylesheet'/>
+  <link href='schedule.css' rel='stylesheet'/>
+  <script src='moment.min.js'></script>
+  <script src='jquery.min.js'></script>
+  <script src='fullcalendar.min.js'></script>
+  <script src='schedule.js'></script>
+</head>
+<body>
+
+  <div class='center'>
+      <h1>Schedule a live class</h1>
+  </div>
+  <div id="main">
+    <h2>Choose a topic</h2>
+    <hr>
+    <div id='topics'>
+      <div class='topic'>
+        <img src='images/snowman.jpg'/>
+        <span>Season & Weather</span>
+      </div>
+      <div class='topic'>
+        <img src='images/palette.jpg'/>
+        <span>Colors</span>
+      </div>
+      <div class='topic'>
+        <img src='images/music.jpg'/>
+        <span>Music</span>
+      </div>
+      <div class='topic'>
+        <img src='images/football.jpg'/>
+        <span>Sports</span>
+      </div>
+    </div>
+    <h2>Select time availability</h2>
+    <hr>
+    <div id='calendar'></div>
+    <div class='center'>
+        <button id='submit'>Submit</button>
+    </div>
+  </div>
+
+</body>
+</html>
